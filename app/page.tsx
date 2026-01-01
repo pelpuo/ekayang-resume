@@ -79,7 +79,7 @@ export default function Home() {
             <section className="w-full mb-12" id="about">
               <h2 className="text-3xl font-semibold mb-4">About Me</h2>
               <div className="space-y-4 leading-relaxed text-justify">
-                <p>
+                <p className="text-justify">
                   I am a <strong>Computer Science PhD student</strong> at{" "}
                   <strong>Arizona State University</strong>, where I serve as a
                   Research Assistant at the{" "}
@@ -93,31 +93,17 @@ export default function Home() {
                   and <strong>System Security</strong>
                 </p>
               </div>
-            </section>
-
-            {/* Research */}
-            <section className="my-12 w-full text-justify" id="research">
-              <h2 className="text-3xl font-semibold mb-4">Research</h2>
-              <p>
-                Currently, my work focuses on developing innovative tools and
+              <br />
+              <p className="text-justify">
+                My work focuses on developing innovative tools and
                 algorithms to ensure <strong>memory safety</strong> in legacy
                 applications while maintaining high performance. I am also
                 investigating automated algorithms to facilitate{" "}
                 <strong>profile-guided optimization</strong> and compiler
                 autotuning to improve system efficiency.
               </p>
-              <p>
-                Prior to my doctoral studies, I earned my{" "}
-                <strong>BS in Computer Engineering</strong> with{" "}
-                <strong>First Class Honours</strong> from the{" "}
-                <strong>University of Ghana</strong>. My professional experience
-                includes serving as an Innovations Graduate Executive at{" "}
-                <strong>4th-IR</strong>, where I developed APIs for machine
-                learning models, and as a <strong>SuaCode Fellow</strong> with
-                the Nsesa Foundation, contributing to automated grading
-                research.
-              </p>
-              <p>
+              <br />
+              <p className="text-justify">
                 I am passionate about building extensible frameworks for open
                 instruction set architectures, particularly{" "}
                 <strong>RISC-V</strong>, and applying machine learning to

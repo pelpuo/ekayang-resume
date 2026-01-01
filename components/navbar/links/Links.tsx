@@ -9,10 +9,6 @@ const links = [
       path: "/",
     },
     {
-      title: "Research",
-      path: "/#research",
-    },
-    {
       title: "Publications",
       path: "/#publications",
     },
