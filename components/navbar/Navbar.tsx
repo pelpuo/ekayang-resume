@@ -5,15 +5,14 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="max-w-[1200px] w-full mx-auto py-8 flex items-center justify-end">
-        <Link
-            href="/"
-            className="mr-auto flex items-center"
-        >
-            <h2 className="font-semibold">Edwin Pelpuo Kayang</h2>      
+    // <div className="bg-gray-900 w-full">
+      <div className="max-w-[1200px] w-full mx-auto py-6 flex items-center justify-end">
+        <Link href="/" className="mr-auto flex items-center">
+          <h2 className="font-semibold">Edwin Pelpuo Kayang</h2>
         </Link>
-      <Links />
-    </div>
+        <Links />
+      </div>
+    // </div>
   );
 };
 

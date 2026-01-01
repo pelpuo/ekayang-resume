@@ -9,16 +9,16 @@ const links = [
       path: "/",
     },
     {
-      title: "Skills",
-      path: "/#skills",
+      title: "Research",
+      path: "/#research",
     },
     {
       title: "Publications",
       path: "/#publications",
     },
     {
-      title: "Portfolio",
-      path: "/#portfolio",
+      title: "Artifacts",
+      path: "/#artifacts",
     },
   ];
 
