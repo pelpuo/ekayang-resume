@@ -83,7 +83,7 @@ export default function Home() {
               <h2 className="text-3xl font-semibold mb-4">About Me</h2>
               <div className="space-y-4 leading-relaxed text-justify">
                 <p className="text-justify">
-                  I am a <strong>Computer Science PhD student</strong> at{" "}
+                  I am a third year <strong>Computer Science PhD student</strong> at{" "}
                   <strong>Arizona State University</strong>, where I serve as a
                   Research Assistant at the{" "}
                   <strong>
