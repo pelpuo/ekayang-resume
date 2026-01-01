@@ -7,7 +7,7 @@ import { FaGoogleScholar } from "react-icons/fa6";
 import Footer from "@/components/footer/Footer";
 import Publication from "@/components/publication/Publication";
 
-const isProd = process.env.NODE_PATH === 'production';
+const isProd = process.env.NODE_ENV === 'production';
 const prefix = isProd ? '/ekayang-resume' : '';
 
 export default function Home() {
