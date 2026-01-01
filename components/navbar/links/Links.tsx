@@ -40,9 +40,7 @@ const Links = () => {
                     <Link
                         key={link.title}
                         href={link.path}
-                        className={`px-6 text-sm font-semibold hover:text-blue-300 ${
-                            pathName === link.path ? 'text-blue-400' : ''
-                        }`}
+                        className={`px-6 text-sm font-semibold hover:text-blue-300`}
                     >
                         {link.title}
                     </Link>
