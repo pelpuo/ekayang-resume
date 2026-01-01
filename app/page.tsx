@@ -7,6 +7,9 @@ import { FaGoogleScholar } from "react-icons/fa6";
 import Footer from "@/components/footer/Footer";
 import Publication from "@/components/publication/Publication";
 
+const isProd = process.env.NODE_PATH === 'production';
+const prefix = isProd ? '/ekayang-resume' : '';
+
 export default function Home() {
   return (
     <div className="w-full h-full bg-gray-950 mx-auto min-h-screen flex flex-col items-center">
@@ -16,7 +19,7 @@ export default function Home() {
         <main className="max-w-[1260px] w-full mt-6 px-4 flex flex-col sm:grid sm:grid-cols-8 sm:gap-6 items-start">
           <div className="col-span-2 mb-6 sm:px-0 px-6 flex flex-col items-center sm:items-start">
             <Image
-              src="/images/headshot_alt.png"
+              src={`${prefix}/images/headshot_alt.png`}
               alt="avatar"
               height={160}
               width={160}
