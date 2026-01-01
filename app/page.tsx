@@ -13,8 +13,8 @@ export default function Home() {
       <div className="w-full mx-auto min-h-screen flex flex-col items-center">
         <Navbar />
         <hr className="w-full h-0.5 border-gray-800 mb-4" />
-        <main className="max-w-[1200px] w-full mt-6 grid grid-cols-8 gap-6 items-start">
-          <div className="col-span-2 flex flex-col items-left">
+        <main className="max-w-[1260px] w-full mt-6 px-4 flex flex-col sm:grid sm:grid-cols-8 sm:gap-6 items-start">
+          <div className="col-span-2 mb-6 sm:px-0 px-6 flex flex-col items-center sm:items-start">
             <Image
               src="/images/headshot_alt.png"
               alt="avatar"
@@ -28,7 +28,7 @@ export default function Home() {
               Arizona State University
             </p>
 
-            <div className="socials text-left mt-2">
+            <div className="socials text-left mt-2 flex items-center gap-6 sm:block">
               {/* Social media icons/links can be added here */}
 
               {/* Email */}

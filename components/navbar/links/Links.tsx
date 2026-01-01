@@ -25,7 +25,7 @@ const links = [
 const Links = () => {
     const pathName = usePathname();
   return (
-    <div>
+    <div className='sm:block flex flex-wrap'>
         {links.map((link) => (
            <Link
            key={link.title}
