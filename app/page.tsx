@@ -146,7 +146,7 @@ export default function Home() {
                 <Publication
                   date="Dec 2025"
                   title="Panoptes: A Framework for Profile Clustering and Context-Aware Binary Optimization"
-                  authors="Edwin Kayang, Eric Jahns, Mishel Jyothis Paul, Michel A. Kinsy"
+                  authors="Edwin P. Kayang, Eric Jahns, Mishel Jyothis Paul, Michel A. Kinsy"
                   venue="ACM/IEEE International Conference on Software Engineering"
                   status="Just Accepted"
                 />{" "}
