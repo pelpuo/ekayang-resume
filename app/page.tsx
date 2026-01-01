@@ -107,10 +107,8 @@ export default function Home() {
               </p>
               <br />
               <p className="text-justify">
-                I am passionate about building extensible frameworks for open
-                instruction set architectures, particularly{" "}
-                <strong>RISC-V</strong>, and applying machine learning to
-                hardware/software co-design challenges.
+                I am also passionate about developing open-source software tools
+                to contribute to the <strong>RISC-V</strong> community.
               </p>
 
               <div className="">
