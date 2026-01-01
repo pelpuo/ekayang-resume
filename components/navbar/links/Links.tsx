@@ -3,6 +3,10 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react'
 
+const isProd = process.env.NODE_ENV === 'production';
+const prefix = isProd ? '/ekayang-resume' : '';
+
+
 const links = [
     {
       title: "About ",
@@ -15,6 +19,10 @@ const links = [
     {
       title: "Artifacts",
       path: "/#artifacts",
+    },
+    {
+      title: "CV",
+      path: `${prefix}/ekayang_CV.pdf`,
     },
   ];
 
